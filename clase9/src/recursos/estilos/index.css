@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Poppins;
+  src: url (./fuentes/Poppins-Regular.ttf);
+}
+
+/* SELECTOR UNIVERSAL */
+/* * {
+  outline : 1x red solid;
+}
+ */
+
+/* SELECTOR DE TIPO */
+
+html {
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: pink;
+}
+
+
+header {
+  background-color: lightblue;
+}
+
+header {
+  background-color: red;
+}
+
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+/*  SELECTOR DE CLASE  */
+/* .vinculos */
+/* {
+  color: #000000;
+}
+ */
+
+.vinculos a {
+  color: #000000;
+}
+
+.encabezado-principal {
+  background-color: ·#000000;
+}
+
+.encabezado-principal .vinculos a {
+  color: ·#ffffff
+}
+
+.contenido-principal {}
+
+.pie-principal {}
+
+/* ATRIBUTO */
+/* [
+  href {
+
+  }
+ ] */
+
+
+
+/* #contactos {
+
+ } */
