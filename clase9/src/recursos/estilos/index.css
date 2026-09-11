@@ -1,13 +1,14 @@
 @font-face {
-  font-family: Poppins;
-  src: url (./fuentes/Poppins-Regular.ttf);
+  font-family: "Poppins";
+  src: url(./fuentes/Poppins-Regular.ttf);
 }
 
 /* SELECTOR UNIVERSAL */
-/* * {
-  outline : 1x red solid;
+/*
+* {
+  outline: 1px red solid;
 }
- */
+*/
 
 /* SELECTOR DE TIPO */
 
@@ -19,13 +20,8 @@ body {
   background-color: pink;
 }
 
-
 header {
   background-color: lightblue;
-}
-
-header {
-  background-color: red;
 }
 
 a {
@@ -33,38 +29,31 @@ a {
   text-decoration: none;
 }
 
-/*  SELECTOR DE CLASE  */
-/* .vinculos */
-/* {
-  color: #000000;
-}
- */
+/* SELECTOR DE CLASE */
 
 .vinculos a {
   color: #000000;
 }
 
 .encabezado-principal {
-  background-color: ·#000000;
+  background-color: #fffaeb;
 }
 
 .encabezado-principal .vinculos a {
-  color: ·#ffffff
+  color: #333333;
 }
 
-.contenido-principal {}
+.contenido-principal {
 
-.pie-principal {}
+}
 
-/* ATRIBUTO */
-/* [
-  href {
+.pie-principal {
 
-  }
- ] */
+}
 
+/* SELECTOR DE ID */
+/*
+#contactos {
 
-
-/* #contactos {
-
- } */
+}
+*/
