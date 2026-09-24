@@ -27,4 +27,37 @@ pn add five-server
 - reinstalar paquetes si existe package.json
 pn install 
 
--configurar scripts -> "dev":"five-server"
+-configurar scripts -> "dev":"five-server" 
+//////////////////
+Comandos de consola
+
+Comandos primera vez
+-Instalar node js
+-verificar su instalacion:
+node -v
+
+-verificar instalacion npm: 
+https://pnpm.io/es/ 
+https://www.npmjs.com/
+
+es el gestor de paquetes para utilizar node, ahora usamos five-server
+npm -v
+
+-Para hacer en clases
+-instalar manejador de paquetas pnpm:
+npm i -g pnpm
+
+-Entrar a carpeta clases
+cd y arrastro la carpeta
+
+Por Proyecto:
+-verificar si no existe el package .json, si no existe ejecutar
+pn init
+
+-instalar paquete five-server
+pn add five-server
+
+-Reinstalar paquetes si existe package.json
+pn install
+
+-Configurar scripts -> "dev; "five-server"
