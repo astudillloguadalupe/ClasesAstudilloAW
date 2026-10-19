@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "dev": "five-server src"
-},
+  "scripts": {
+    "dev": "five-server src"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
